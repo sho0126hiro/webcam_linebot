@@ -1,5 +1,5 @@
 # cron ( sudo crontab -e -u )
-# 00 9-20 * * 1-5 ./home/vagrant/work.sh
+# 00 9-20 * * 1-5 python3 ./home/pi/.../line_notify.py
 import requests,datetime
 import subprocess,os
 import TOKEN
