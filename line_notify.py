@@ -1,4 +1,5 @@
-# cron 
+# cron ( sudo crontab -e -u )
+# 00 9-20 * * 1-5 ./home/vagrant/work.sh
 import requests,datetime
 import subprocess,os
 import TOKEN
